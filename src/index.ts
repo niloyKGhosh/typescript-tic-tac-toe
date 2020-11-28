@@ -23,9 +23,9 @@ function createCell(row: number, col: number, content: Cell = "") {
 	cell.classList.add("cell");
 
 	cell.addEventListener("click", () => {
-		if (winner !== "") {
-			return;
-		}
+		// if (winner !== "") {
+		// 	return;
+		// }
 
 		if (boardState[row][col] !== "") {
 			return;
